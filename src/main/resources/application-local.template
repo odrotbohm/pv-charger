@@ -1,0 +1,26 @@
+# The authentication token to use to interact with the Tesla API
+tesla.token=
+
+# The identifier of the car for which the charging is supposed to be controlled
+tesla.carId=
+
+# What's the minimum charge current to be set (defaults to 5).
+# charging.min-current=5
+
+# What's the maximum current usable for charge (defaults to 13).
+# charging.max-current=13
+
+# How many Watts do you regularly consume without charging being active.
+# Used to improve the calculation of the charge current
+# charging.base-consumption=300
+
+# The IP address of the SMA inverter
+pv.ip=
+
+# The frequency with with we ask the server for current power data (in seconds, defaults to 30).
+# pv.polling-frequency=30
+
+# Logging
+#
+# logging.level.org.springframework.web=debug
+# logging.level.de.odrotbohm.homeautomation.pvcharger=debug
